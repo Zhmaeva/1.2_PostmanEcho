@@ -19,7 +19,7 @@ public class PostmanEchoApiTestV1 {
                 .then()
                 .log().all()
                 .statusCode(200)
-                .body("data", equalTo("some value"))
+                .body("data", equalTo("some data"))
         ;
     }
 }
